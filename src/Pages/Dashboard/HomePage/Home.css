@@ -1,0 +1,101 @@
+.parent-container{
+    margin-top: 20px;
+}
+.graph-container{
+    width: 450px;
+}
+.graph-container img{
+    width: 100%;
+}
+.card{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    background-image: url(./Images/wave-haikei\ \(3\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.card h4,
+.card p,
+.card h3{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.visa-container{
+    width: 100px;
+
+}
+.visa-container img{
+    width: 100%;
+}
+
+/* Table stylings */
+.table-div{
+    margin-top: 40px ;
+}
+.table-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+.logo-div{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    font-family:cursive;
+}
+.logo{
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+
+/* media query */
+
+@media screen and (max-width: 414px){
+    .graph-container{
+        width: 320px;
+    }
+    .card{
+        width: 300px;
+    }
+    .logo-div p{
+        display: none;
+    }
+    .logo{
+        margin-right: 5px;
+    }
+    .row{
+        gap: 30px;
+    }
+    
+} 
+
+@media screen and (max-width: 280px){
+    .graph-container{
+        width: 220px;
+        margin: auto;
+    }
+    .card{
+        width: 200px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+    .parent-container{
+        margin-top: 50px;
+    }
+    .graph-container{
+        width: 350px;
+    }
+    .card{
+        width: 280px;
+    }
+}
