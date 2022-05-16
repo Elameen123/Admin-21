@@ -1,0 +1,26 @@
+tr td {
+    padding: 20px;
+}
+
+tr {
+    border: none;
+}
+
+thead {
+    background: rgb(58, 54, 10);
+    color: rgb(245, 242, 240);
+}
+
+table {
+    -webkit-box-shadow: 5px 2px 22px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 2px 22px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    width: auto;
+    border-collapse: collapse;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
