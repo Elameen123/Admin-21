@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Pages/Login/Login";
 import Product from "./Pages/Dashboard/ProductPage/Product";
 import Dashboard from "./Component/SideNav/Dashboard";
-// import ProtectedRoutes from "./Component/ProtectedRoutes";
+import ProtectedRoutes from "./Component/ProtectedRoutes";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import Team from "./Pages/Dashboard/TeamPage/Team";
 
@@ -17,9 +17,9 @@ function App() {
           <Route path="/*" element={<Dashboard />} />
           <Route path="/team" element={<Team />} />
 
-          {/* <Route element={<ProtectedRoutes />}>
+          <Route element={<ProtectedRoutes />}>
             <Route path="/*" element={<Dashboard />} />
-          </Route> */}
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>
