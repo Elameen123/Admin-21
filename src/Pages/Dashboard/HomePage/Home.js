@@ -31,13 +31,12 @@ const Home = () => {
             </Col>
             <Col sm>
               <h4>Card</h4>
-              <div className='card'>
-                
-              <div className='visa-container'>
-                <img src={Visa} alt='visa logo'/>
-              </div>
-                  <p>Total Balance</p>
-                  <h3>$24,000</h3>
+              <div className='cards'>
+                <div className='visa-container'>
+                  <img src={Visa} alt='visa logo'/>
+                </div>
+                <p>Total Balance</p>
+                <h3>$24,000</h3>
               </div>
             </Col>
           </Row>

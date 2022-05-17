@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Login.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import image from './Images/undraw_access_account_re_8spm.svg'
+import image from './Images/undraw_access_account_re_8spm (1).svg'
 import {BiUserCircle} from 'react-icons/bi'
 import {RiLockPasswordLine} from 'react-icons/ri'
 import {Container, Row, Col, Form, Button} from 'react-bootstrap'

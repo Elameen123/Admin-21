@@ -7,7 +7,7 @@
 .graph-container img{
     width: 100%;
 }
-.card{
+.cards{
     width: 350px;
     height: 200px;
     border-radius: 20px;
@@ -19,9 +19,9 @@
     margin-top: 20px;
     
 }
-.card h4,
-.card p,
-.card h3{
+.cards h4,
+.cards p,
+.cards h3{
     text-align: left;
     margin-left: 40px;
     margin-top: 20px;
@@ -53,6 +53,9 @@
     width: 100%;
     margin-right: 20px;
     border-radius: 20px;
+}
+.row{
+    text-align: center;
 }
 
 
