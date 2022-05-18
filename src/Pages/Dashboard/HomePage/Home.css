@@ -65,7 +65,7 @@
     .graph-container{
         width: 320px;
     }
-    .card{
+    .cards{
         width: 300px;
     }
     .logo-div p{
@@ -85,7 +85,7 @@
         width: 220px;
         margin: auto;
     }
-    .card{
+    .cards{
         width: 200px;
         margin: auto;
     }
@@ -98,7 +98,7 @@
     .graph-container{
         width: 350px;
     }
-    .card{
+    .cards{
         width: 280px;
     }
 }
