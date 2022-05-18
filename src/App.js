@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import './index.css';
 
-const url = ' https://fakerapi.it/api/v1/companies?_quantity=1'
+const url = ' https://fakerapi.it/api/v1/companies?_quantity=10'
 
 function App() {
   const [loading,setLoading] = useState(true)
