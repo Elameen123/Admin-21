@@ -4,7 +4,8 @@
     "firstname",
     "lastname",
     "setbutton",
-    "setteam"
+    "setteam",
+    "toastify"
   ],
   "compile-hero.disable-compile-files-on-did-save-code": false
 }

@@ -38,7 +38,7 @@ const submitHandler = (e) => {
   e.preventDefault()
   sessionStorage.setItem('adminDetails', JSON.stringify({...form}))
   
-  toast.success(`Welcome, ${form.email}`)
+  toast.success(`Admin Login Successful,Welcome ${form.email}`)
 
   setTimeout(() => {
       window.location="/Dashboard"

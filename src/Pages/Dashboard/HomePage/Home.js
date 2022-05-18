@@ -23,7 +23,7 @@ const Home = () => {
         <div>
           <Row  className='row'>
             <Col sm>
-              <h4 >Statictics</h4>
+              <h4 >Statistics</h4>
               <div className='graph-container'>
                 <img src={Graph} alt='graph'/>
               </div>

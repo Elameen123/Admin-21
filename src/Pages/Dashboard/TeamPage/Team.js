@@ -50,14 +50,13 @@ const changeStatus = () => {
               <tr>
               <td>{teamMember.id}</td> 
               <td>
-                <p>
+                  <img src={teamMember.image} alt='Image' className='image'></img>
                   <span className='first-name'>
                   {teamMember.firstname}
                   </span>
                   <span>
                   {teamMember.lastname}
                   </span>
-                </p>
               </td>
               <td>{teamMember.email}</td>
               <td>{teamMember.phone}</td>
