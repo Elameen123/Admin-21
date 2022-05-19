@@ -3,6 +3,7 @@ import Home from "../../Pages/Dashboard/HomePage/Home";
 import Client from "../../Pages/Dashboard/ClientPage/Client";
 import Product from "../../Pages/Dashboard/ProductPage/Product";
 import Team from "../../Pages/Dashboard/TeamPage/Team";
+import Header from "../Header/Header"
 import {
   CDBSidebar,
   CDBSidebarContent,
@@ -20,7 +21,11 @@ const Dashboard = () => {
  
 
   return (
+
     <div className="sidenav">
+      {/* <Header /> */}
+
+
       <CDBSidebar className="sidebar-container">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a
@@ -34,9 +39,6 @@ const Dashboard = () => {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
-            </NavLink>
             <NavLink
               exact
               to="/Home"
@@ -69,8 +71,14 @@ const Dashboard = () => {
             >
               <CDBSidebarMenuItem icon="user">Team</CDBSidebarMenuItem>
             </NavLink>
+
+            <NavLink exact to="/" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="columns">Log out</CDBSidebarMenuItem>
+            </NavLink>
           </CDBSidebarMenu>
         </CDBSidebarContent>
+
+       
 
         <CDBSidebarFooter style={{ textAlign: "center" }}>
           <div

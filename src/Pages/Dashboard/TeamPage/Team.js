@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import './Team.css'
 import { Form } from 'react-bootstrap';
+import Header from '../../../Component/Header/Header'
+import Dashboard from '../../../Component/SideNav/Dashboard';
 
 const Team = () => {
   const teamAPI = "https://fakerapi.it/api/v1/persons?_quantity=10";
@@ -29,6 +31,9 @@ const changeStatus = () => {
   console.log(teamMembers)
   return (
     <div className='header'>
+      {/* <Header /> */}
+      <div className='parent-div'>
+      <Dashboard />
       <div className="table-responsive">
       <table className="table table-hover header">
         <thead className="head">
@@ -81,6 +86,8 @@ const changeStatus = () => {
         </tbody>
       </table>
       </div>
+      </div>
+      
       
     </div>
   )

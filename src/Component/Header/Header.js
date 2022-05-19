@@ -9,11 +9,10 @@ const Header = () => {
     <div>
         <Navbar className="nav">
             <Container className='nav-container'>
-                <Navbar.Brand href="/home" className="brand">Welcome!</Navbar.Brand>
+                <Navbar.Brand href="/home" className="brand">Dashboard</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text>
-                    <span className='span'>Logged in as </span>
                     <p className='content'>{adminDetails.email}</p>
                 </Navbar.Text>
                 </Navbar.Collapse>

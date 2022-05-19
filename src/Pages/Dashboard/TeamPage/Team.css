@@ -3,19 +3,24 @@
   color: whitesmoke;
   border: 1px solid rgb(180, 7, 180) !important;
 }
-
-.header {
-  border-radius: 15px !important;
+.parent-div{
+  display:flex;
 }
+/* .header {
+  border-radius: 15px !important;
+  margin: 0;
+} */
 
 .first-name {
   margin-right: 5px !important;
 }
 
 .table {
-  margin: 10px 0px 10px 5% !important;
+  /* margin: 10px 0px 10px 5% !important; */
+  /* margin: auto; */
+  /* margin-left: 10%; */
   border: 1px solid lightgray !important;
-  width: 90% !important;
+  width: 100% !important;
 }
 
 .btn {
@@ -25,12 +30,6 @@
 
 .status {
   padding-left: 20px !important;
-}
-
-.details {
-  border: 1px solid red !important;
-  height: 40px;
-  width: fit-content;
 }
 
 .image, .first-name {

@@ -1,7 +1,8 @@
 .sidebar-container {
-  background-color: #111827;
+  /* background-color: #111827; */
+ background-color: transparent;
+ position: fixed;
+ /* z-index: 10; */
+ height: 100vh;
 }
 
-.sidenav {
-  height: 100vh;
-}

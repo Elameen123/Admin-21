@@ -7,6 +7,8 @@ import Visa from './Images/visa-logo.svg'
 import paypal from './Images/paypal logo.jpg'
 import youtube from './Images/youtube logo.jpg'
 import Amazon from './Images/Amazon-logo2.jpg'
+import Dashboard from '../../../Component/SideNav/Dashboard'
+import Header from '../../../Component/Header/Header'
 
 const Home = () => {
 
@@ -18,8 +20,13 @@ const Home = () => {
   console.log(Transactions)
 
   return (
+    
     <div className='parent-container'>
-      <Container>
+      {/* <Dashboard /> */}
+      <Header />
+      <Container className='wrapper'>
+      
+        
         <div>
           <Row  className='row'>
             <Col sm>

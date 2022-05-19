@@ -1,5 +1,7 @@
 .nav{
     background-color: rgb(190, 162, 126);
+    /* margin-bottom: 50px !important; */
+    /* width: 350% !important; */
 }
 
 .brand {
@@ -8,15 +10,6 @@
     font-family: serif;
     font-size: 30px;
 }
-
-.span {
-    font-size: 18px;
-    font-weight: bold;
-    color: rgb(59, 59, 59);
-    margin-left: -20px;
-    float: left;
-}
-
 .content{
     color: white !important;
     float: left;
