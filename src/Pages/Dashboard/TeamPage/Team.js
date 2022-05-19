@@ -15,13 +15,13 @@ const Team = () => {
   const active = "active"
   const inactive = "inactive"
 
-  const [buttonValue, setbuttonValue] = useState(inactive)
+  const [buttonValue, setbuttonValue] = useState(false)
 
-  const [buttonState, setbuttonState] = useState(danger)
+  const [buttonState, setbuttonState] = useState(false)
 
 const changeStatus = () => {
-  setbuttonValue(active);
-  setbuttonState(success);
+  setbuttonValue(!buttonValue);
+  setbuttonState(!buttonState);
 }
 
   useEffect(() => {
@@ -67,7 +67,7 @@ const changeStatus = () => {
               <td>{teamMember.phone}</td>
               <td>{teamMember.gender}</td>
               <td>
-              <button type="button" class={ buttonState }>{buttonValue}</button>
+              <button type="button" class={ buttonState ? success : danger }>{buttonValue ? active : inactive}</button>
               </td>
               <td>
               <Form>
