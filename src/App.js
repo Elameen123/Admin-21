@@ -18,8 +18,8 @@ function App() {
           <Route path="/" element={<Login />} />
 
           <Route element={<ProtectedRoutes />}>
-            <Route path="/*" element={<Dashboard />} />
-            <Route path="/Home" element={<Home />} />
+            {/* <Route path="/*" element={<Dashboard />} /> */}
+            <Route path="/*" element={<Home />} />
             <Route path="/Client" element={<Client />} />
             <Route path="/Team" element={<Team />} />
             <Route path="/Product" element={<Product />} />
