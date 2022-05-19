@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './Team.css'
-import { Form } from 'react-bootstrap';
+import { Form, Table } from 'react-bootstrap';
 import Header from '../../../Component/Header/Header'
 import Dashboard from '../../../Component/SideNav/Dashboard';
 
@@ -34,8 +34,8 @@ const changeStatus = () => {
       {/* <Header /> */}
       <div className='parent-div'>
       <Dashboard />
-      <div className="table-responsive">
-      <table className="table table-hover header">
+      
+      <Table className="table table-hover header">
         <thead className="head">
           <tr>
           <th scope="col">id</th>
@@ -84,8 +84,8 @@ const changeStatus = () => {
             )) : null
           }
         </tbody>
-      </table>
-      </div>
+      </Table>
+      
       </div>
       
       

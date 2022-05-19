@@ -1,9 +1,13 @@
-/* .parent-container{
-    margin-top: 20px;
-} */
-.graph-container{
-    width: 450px;
+ .parent-container{
+    display: flex;
+    height: 100vh;
+    
+} 
+
+.stat-div .graph-container{
+    width: 420px;
 }
+
 .graph-container img{
     width: 100%;
 }
@@ -28,7 +32,6 @@
 }
 .visa-container{
     width: 100px;
-
 }
 .visa-container img{
     width: 100%;
@@ -54,19 +57,27 @@
     margin-right: 20px;
     border-radius: 20px;
 }
-.row{
-    text-align: center;
-}
+.row-div{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   margin-top: 30px;
+}  
 
 
 /* media query */
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 912px){
+    .row-div{
+        display: flex;
+        flex-direction: column;
+    }
     .graph-container{
-        width: 320px;
+        width: 280px;
+        margin: auto;
     }
     .cards{
-        width: 300px;
+        width: 320px;
     }
     .logo-div p{
         display: none;
@@ -74,7 +85,7 @@
     .logo{
         margin-right: 5px;
     }
-    .row{
+    .row-div{
         gap: 30px;
     }
     
@@ -82,7 +93,7 @@
 
 @media screen and (max-width: 280px){
     .graph-container{
-        width: 220px;
+        width: 150px;
         margin: auto;
     }
     .cards{
@@ -91,7 +102,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 912px) {
+/* @media screen and (min-width: 768px) and (max-width: 912px) {
     .parent-container{
         margin-top: 50px;
     }
@@ -101,4 +112,8 @@
     .cards{
         width: 280px;
     }
-}
+    .row-div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}  */

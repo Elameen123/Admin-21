@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Dashboard from "../../../Component/SideNav/Dashboard";
+import {Table} from "react-bootstrap"
 import './Client.css';
 
 const url = ' https://fakerapi.it/api/v1/companies?_quantity=8'
@@ -34,9 +35,9 @@ if(loading){
   return (
     <section >
       <div className="contact-div">
-        <Dashboard></Dashboard>
+        <Dashboard />
       
-      <table>
+      <Table>
         <thead>
           <tr>
           <th>Full name</th>
@@ -60,7 +61,7 @@ if(loading){
           }
       
         </tbody>
-      </table>
+      </Table>
       </div> 
     </section>
   );

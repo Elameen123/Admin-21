@@ -21,22 +21,21 @@ const Home = () => {
 
   return (
     
-    <div className='parent-container'>
-      {/* <Dashboard /> */}
+    <div>
       <Header />
-      <Container className='wrapper'>
+      <div className='parent-container'>
+      <Dashboard />
       
-        
-        <div>
-          <Row  className='row'>
-            <Col sm>
+      <Container>
+          <div  className='row-div'>
+            <div className='stat-div'>
               <h4 >Statistics</h4>
               <div className='graph-container'>
                 <img src={Graph} alt='graph'/>
               </div>
               
-            </Col>
-            <Col sm>
+            </div>
+            <div className ="card-div">
               <h4>Card</h4>
               <div className='cards'>
                 <div className='visa-container'>
@@ -45,9 +44,9 @@ const Home = () => {
                 <p>Total Balance</p>
                 <h3>$24,000</h3>
               </div>
-            </Col>
-          </Row>
-        </div>
+            </div>
+          </div>
+        
         
         {/* testing out tables */}
         <div className='table-div'>
@@ -83,6 +82,8 @@ const Home = () => {
         </div>
 
       </Container>
+      </div>
+     
     </div>
   )
 }
