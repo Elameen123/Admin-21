@@ -1,6 +1,6 @@
 
 import './Home.css'
-import { Col, Container, Row, Table } from 'react-bootstrap'
+import { Container, Table } from 'react-bootstrap'
 import {BsFillArrowUpRightCircleFill} from 'react-icons/bs'
 import Graph from './Images/graph 1.webp'
 import Visa from './Images/visa-logo.svg'
@@ -65,7 +65,7 @@ const Home = () => {
                     
                     <td>
                       <div className='logo-div'>
-                        <img src={Transaction.image} className='logo'/>
+                        <img src={Transaction.image} className='logo' alt='transact'/>
                          <p>{Transaction.name}</p>
                       </div>
                     </td>

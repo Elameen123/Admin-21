@@ -3,7 +3,7 @@ import Home from "../../Pages/Dashboard/HomePage/Home";
 import Client from "../../Pages/Dashboard/ClientPage/Client";
 import Product from "../../Pages/Dashboard/ProductPage/Product";
 import Team from "../../Pages/Dashboard/TeamPage/Team";
-import Header from "../Header/Header"
+// import Header from "../Header/Header"
 import {
   CDBSidebar,
   CDBSidebarContent,
@@ -13,7 +13,7 @@ import {
   CDBSidebarMenuItem,
 } from "cdbreact";
 import { NavLink } from "react-router-dom";
-import { Navbar, Container, Nav } from "react-bootstrap";
+// import { Navbar, Container, Nav } from "react-bootstrap";
 import "./dashboard.css";
 
 

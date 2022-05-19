@@ -8,7 +8,7 @@ const url = ' https://fakerapi.it/api/v1/companies?_quantity=8'
 function Client() {
   const [loading,setLoading] = useState(true)
   const [CusInfo,setCusInfo] = useState({})
-  const [value,setValue] = useState(0)
+  // const [value,setValue] = useState(0)
 
   const fetchInfo = async ()=>{
     const response = await fetch(url)
@@ -20,7 +20,7 @@ function Client() {
 
 useEffect(()=>{
   fetchInfo()
-},[value])
+},[])
 
 if(loading){
   return(
@@ -55,7 +55,7 @@ if(loading){
                 <td>{CusInfo.email}</td>
                 <td>{CusInfo.phone}</td>
                 <td>{CusInfo.contact.gender}</td>
-                <td><img src={CusInfo.image} alt="image" width={60}/></td>
+                <td><img src={CusInfo.image} alt="cusInfo" width={60}/></td>
               </tr> 
             )) : null
           }

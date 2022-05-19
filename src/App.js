@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Pages/Login/Login";
-import Dashboard from "./Component/SideNav/Dashboard";
+// import Dashboard from "./Component/SideNav/Dashboard";
 import ProtectedRoutes from "./Component/ProtectedRoutes";
 import Home from "./Pages/Dashboard/HomePage/Home";
 import Client from "./Pages/Dashboard/ClientPage/Client";

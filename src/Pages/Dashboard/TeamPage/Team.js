@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './Team.css'
 import { Form, Table } from 'react-bootstrap';
-import Header from '../../../Component/Header/Header'
 import Dashboard from '../../../Component/SideNav/Dashboard';
 
 const Team = () => {
@@ -31,7 +30,6 @@ const changeStatus = () => {
   console.log(teamMembers)
   return (
     <div className='header'>
-      {/* <Header /> */}
       <div className='parent-div'>
       <Dashboard />
       
@@ -55,7 +53,7 @@ const changeStatus = () => {
               <tr>
               <td>{teamMember.id}</td> 
               <td>
-                  <img src={teamMember.image} alt='Image' className='image'></img>
+                  <img src={teamMember.image} alt='team' className='image'></img>
                   <span className='first-name'>
                   {teamMember.firstname}
                   </span>
