@@ -9,6 +9,7 @@ import {
   Button,
 } from "react-bootstrap";
 import ReactReadMoreReadLess from "react-read-more-read-less";
+import Header from "../../../Component/Header/Header";
 
 const Product = () => {
   const borderstyle = {
@@ -45,6 +46,7 @@ const Product = () => {
 
   return (
     <>
+     <Header />
       <Container>
         <h2 className="my-4">Products grid</h2>
         <div>

@@ -1,0 +1,80 @@
+.parent{
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(190, 162, 126); 
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(190, 162, 126);
+}
+.row{
+    padding: 20px !important;
+}
+.img-div{
+    width: 250px;
+}
+.img-div img{
+    width: 100%;
+    margin-top: 50px;
+}
+.form-div{
+    background-color: #fff;
+    padding: 60px;
+}
+.form-div div{
+    text-align: left;
+}
+
+#email-input,
+#password-input{
+    border-radius: 0;
+}
+#btn{
+    float: right;
+    width: 100px;
+    background-color: #4B4B4B;
+    color: #fff;
+    border: #000;
+}
+
+.email-div,
+.password-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+.email-icon-div,
+.password-icon-div{
+    text-align: center;
+    padding:7.4px;
+    background-color: #4B4B4B;
+    color: #fff;
+}
+.valid{
+    background-color: blue;
+}
+.not-valid{
+    background-color: red;
+}
+
+/* media query */
+@media screen and (max-width: 540px) {
+    #container{
+        width: 350px !important;
+        
+    }
+    .img-div{
+       display: none;
+    }
+}
+
+@media screen and (max-width: 280px) {
+   
+    #container{
+        width: 250px !important;
+    }
+
+}

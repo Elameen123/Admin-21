@@ -19,12 +19,28 @@
 }
 
 .btn {
-  border: 1.5px solid;
-  border-radius: 50px;
+  border: 1.5px solid !important;
+  border-radius: 50px !important;
 }
 
 .status {
-  padding-left: 40px !important;
+  padding-left: 20px !important;
+}
+
+.details {
+  border: 1px solid red !important;
+  height: 40px;
+  width: fit-content;
+}
+
+.image, .first-name {
+  margin: 5px !important;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
 }
 
 /* active-color = rgb(85, 175, 85) */
