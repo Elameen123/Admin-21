@@ -70,8 +70,8 @@ const Home = () => {
                       </div>
                     </td>
                     
-                    <td style={{fontFamily:'cursive'}}>{Transaction.details}</td>
-                    <td style={{fontFamily:'cursive'}}>{Transaction.amount}</td>
+                    <td >{Transaction.details}</td>
+                    <td >{Transaction.amount}</td>
                   </tr>
                 )):console.log('error dey guy')
               }

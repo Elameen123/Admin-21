@@ -1,7 +1,6 @@
-.nav{
+.nav-div{
     background-color: rgb(190, 162, 126);
-    /* margin-bottom: 50px !important; */
-    /* width: 350% !important; */
+    width: 100vw;
 }
 
 .brand {
@@ -14,4 +13,10 @@
     color: white !important;
     float: left;
     margin:2px 0px 0px 10px;
+}
+
+@media screen and (max-width: 414px){
+    .nav-div{
+        width: 130%;
+    }
 }
