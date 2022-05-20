@@ -1,4 +1,4 @@
-
+import React from 'react'
 import './Home.css'
 import { Container, Table } from 'react-bootstrap'
 import {BsFillArrowUpRightCircleFill} from 'react-icons/bs'
